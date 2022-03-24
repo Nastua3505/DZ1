@@ -1,0 +1,97 @@
+body {
+  font-size: 16px;
+}
+
+.container {
+  max-width: 1440px;
+  padding: 0 20px;
+}
+
+.form {
+  padding-top: 26px;
+}
+
+.title {
+  margin-bottom: 25px;
+}
+
+.name1 {
+  display: block;
+  margin-bottom: 13px;
+}
+
+.nameInput {
+  margin-left: 50px;
+  max-width: 100%;
+  width: 70%;
+}
+
+.form2 {
+  display: block;
+  margin-bottom: 15px;
+}
+
+.form3 {
+  padding: 1px;
+  margin-left: 5px;
+  max-width: 100%;
+  width: 330px;
+}
+
+.form4 {
+  display: contents;
+}
+
+.form4Label {
+  margin-left: 80px;
+}
+
+.form5 {
+  display: block;
+  margin-bottom: 15px;
+}
+
+.form6 {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form6textarea {
+  margin-top: 10px;
+  display: block;
+  max-width: 100%;
+  width: 100%;
+}
+
+.button {
+  display: block;
+  font-size: 16px;
+}
+
+@media (max-width: 1440px) {
+  .nameInput {
+    margin-left: 0;
+    width: 87%;
+  }
+}
+
+@media (max-width: 1440px) {
+  .nameInput {
+    margin-top: 5px;
+    width: 100%;
+    padding: 0;
+  }
+}
+
+@media (max-width: 650px) {
+  .from3 {
+    margin-left: 3px;
+    margin: 5px;
+    width: 100%;
+  }
+
+  .form4Label {
+    display: block;
+    margin-left: 2px;
+  }
+}

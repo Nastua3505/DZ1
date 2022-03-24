@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <form class="form" action="#">
+            <p class="title">
+                Для публикации вашей статьи заполните, пожайлуста, следующую форму:
+            </p>
+            <label class="name1">
+                Название статьи:
+                <input type="text" class="nameInput" required>
+            </label>
+            <label class="form2">
+                Рубрика:
+                <select class="form3" name="heading">
+                    <option value="1" selected>программирование</option>
+                    <option value="2">тестироание</option>
+                    <option value="3">автоматизация</option>
+                    <option value="4">разработка</option>
+                </select>
+            </label>
+            
+                <legend class="form4">Публикация</legend>
+               
+
+                    <label class="form4Label" for="" >
+                        <input class="input1" type="radio">
+                        на сайте
+                    </label>
+                    <label class="form4Label"  for="">
+                        <input class="input1" type="radio">
+                        в журнале
+                    </label>
+                    <label class="form4Label" for="">
+                        <input class="input1" type="radio">
+                        на сайте и в журнале
+                    </label>
+                </label>
+            </fieldset>
+            <label class="form5" for="">
+                Разрешить коментарии:
+                <input type="checkbox" class="input2" checked>
+            </label>
+            <label class="form6" for="">
+                Текст статьи:
+                <textarea class="form6textarea"></textarea>
+            </label>
+            <button class="button" type="submit">Опубликовать</button>
+        </form>
+    </div>
+</body>
+
+</html>
